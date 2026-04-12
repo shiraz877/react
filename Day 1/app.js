@@ -40,7 +40,7 @@ console.log(element1);
 
 const root = document.getElementById("root");
 ReactDom.render(root, element1);
-// ReactDom.render(root, element2);
+ReactDom.render(root, element2);
 // root.appendChild(element1);
 
 // root.appendChild(element2);
