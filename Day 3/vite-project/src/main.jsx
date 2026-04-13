@@ -1,9 +1,8 @@
 import { createRoot } from "react-dom/client";
-import App, { Shiraz } from "./App";
+import App from "./App";
 
 createRoot(document.getElementById("root")).render(
   <>
     <App />
-    <Shiraz />
   </>,
 );
